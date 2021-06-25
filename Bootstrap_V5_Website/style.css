@@ -1,3 +1,11 @@
+/* Added a height as a dummy exsistance for the fixed navbar to not overshadow the nav contents  */
+
+body::before {
+    content: '';
+    display: block;
+    height: 60px;
+}
+
 @media (min-width : 768px) {
     .news-input {
         width: 50%;
